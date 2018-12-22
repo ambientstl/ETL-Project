@@ -1,7 +1,8 @@
 # ETL-Project
 Washington University Data Analytics Bootcamp Unit 13 Group Project
 
-#Instructions
+#Instructions:
+
 After extracting CSV files from Resources folder, Please replace "calnedar" with respective city names below
 
 Ashville_calendar
