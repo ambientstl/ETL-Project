@@ -1,5 +1,9 @@
-Airbnb dataset url - http://insideairbnb.com/get-the-data.html
+Inside Airbnb: Airbnb data - http://insideairbnb.com/get-the-data.html
 
-Dark Sky Forecast API - https://darksky.net/dev/docs
+Dark Sky: Forecast API - https://darksky.net/dev/docs
 
-GeoPy Geocoding toolbox - https://pypi.org/project/geopy/
+Forecastio: Python wrapper for Dark Sky API - https://github.com/ZeevG/python-forecast.io
+
+GeoPy: Geocoding toolbox - https://pypi.org/project/geopy/
+
+Import-ipynb: ipynb reference module - https://pypi.org/project/import-ipynb/
