@@ -3,9 +3,9 @@ Washington University Data Analytics Bootcamp Unit 13 Group Project
 
 #Instructions:
 
-After extracting CSV files from Resources folder, Please replace "calnedar" with respective city names below
+After extracting CSV files from Resources folder, Please replace "calendar" with respective city names below
 
-Ashville_calendar
+Asheville_calendar
 
 Austin_calendar
 
