@@ -6,7 +6,7 @@ From [Inside Airbnb](http://insideairbnb.com/get-the-data.html) we downloaded ca
 Asheville, Austin, Chicago, Hawaii, Nashville, New Orleans, Seattle, San Francisco, Washington DC
 After extracting the CSV files, we renamed each one after its corresponding city (ex. Asheville_calendar.csv).
 
-We used [Dark Sky](https://darksky.net/dev) for forecast data, which required the geographic coordinates of each city.  
+We used [Dark Sky API](https://darksky.net/dev) and [Forecastio Python Wrapper](https://github.com/ZeevG/python-forecast.io) for forecast data, which required the geographic coordinates of each city.  
 For coordinates, we used the [geopy Python module](https://pypi.org/project/geopy/).  
 
 ## T - Transform
