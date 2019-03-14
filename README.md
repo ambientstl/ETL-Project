@@ -13,13 +13,13 @@ For coordinates, we used the [geopy Python module](https://pypi.org/project/geop
 With a city's CSV loaded into a Pandas DataFrame, we converted the Date column into a datetime object in order to locate the available listings for the next week.  
 Next, we strip the $ off of the price and bin the prices in increments of $50, creating a table with the next week of dates and the count of available Airbnb rentals per each price range.  
 
-![Asheville Airbnb Table](Resources/Ashville_Airbnb.png)
+![Asheville Airbnb Table](Resources/Asheville_Airbnb.png)
 
 We located date, temperature, and precipitation data in the JSON object returned from our Dark Sky API request, and we created a DataFrame with the next week of dates and the forecast data for each day.  
 We then merged the Airbnb table with the forecast table for a combination of all our data for that city.  
 After adding a City column to each table, we appended all tables together to create a DataFrame with all data for all cities.
 
-![Asheville Table with Airbnb and Forecast Data](Resources/Ashville.png)
+![Asheville Table with Airbnb and Forecast Data](Resources/Asheville.png)
 
 ## L - Load
 After connecting to a SQLite database and auto-mapping the table structures, load each table into the database. 
